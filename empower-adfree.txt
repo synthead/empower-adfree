@@ -19,7 +19,7 @@ home.personalcapital.com###js-container-app-notifications
 
 ! Remove the tips carousel tile.
 home.personalcapital.com##div > div.dashboard__top-row
-home.personalcapital.com##div#dashboardWrapper:style(margin-top: 0 !important;)
+home.personalcapital.com###dashboardWrapper:remove-class(module-frame--padded)
 
 ! Hide "Personal Strategy" tile.
 home.personalcapital.com##div.dashboard__cell--column.dashboard__cell:has(div.insight__message)
