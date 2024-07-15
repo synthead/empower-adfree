@@ -1,3 +1,7 @@
+! Title: Empower Personal Dashboard Adfree
+! Description: Remove upsells from Empower Personal Dashboard.
+! Homepage: https://github.com/synthead/empower-adfree
+
 ! Remove "Get $20" promotion from the navbar.
 home.personalcapital.com###js-refer-a-friend-menu-item
 
