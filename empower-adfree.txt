@@ -1,0 +1,21 @@
+! Remove "Get $20" promotion from the navbar.
+home.personalcapital.com###js-refer-a-friend-menu-item
+
+! Remove "Wealth management" from the navbar.
+home.personalcapital.com##div.menu__container > .menu--primary.menu > li.menu__item:has(.nav-bar__wealth-management-menu)
+
+! Remove "Open an account" from the "Banking" menu item the navbar.
+home.personalcapital.com##li.menu__item > a[data-attribution-source="open-an-account-menu-item"]
+
+! Remove "Investment checkup" from the "Planning" menu item the navbar.
+home.personalcapital.com##li.menu__item > a[href="https://home.personalcapital.com/page/login/app#/investment-checkup/allocation"]
+
+! Remove notifications from the navbar (they only contain upsells and ads).
+home.personalcapital.com###js-container-app-notifications
+
+! Remove the tips carousel tile.
+home.personalcapital.com##div > div.dashboard__top-row
+home.personalcapital.com##div#dashboardWrapper:style(margin-top: 0 !important;)
+
+! Hide "Personal Strategy" tile.
+home.personalcapital.com##div.dashboard__cell--column.dashboard__cell:nth-of-type(1)
