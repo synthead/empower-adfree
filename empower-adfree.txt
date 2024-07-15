@@ -22,7 +22,7 @@ home.personalcapital.com##div > div.dashboard__top-row
 home.personalcapital.com##div#dashboardWrapper:style(margin-top: 0 !important;)
 
 ! Hide "Personal Strategy" tile.
-home.personalcapital.com##div.dashboard__cell--column.dashboard__cell:nth-of-type(1)
+home.personalcapital.com##div.dashboard__cell--column.dashboard__cell:has(div.insight__message)
 
 ! Hide "Refer a friend" tile.
 home.personalcapital.com##div.dashboard__cell--column.dashboard__cell:has(img.icon-refer-a-friend-gift)
